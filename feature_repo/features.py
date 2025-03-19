@@ -41,7 +41,7 @@ dob_ssn = Entity(
 credit_history_source = FileSource(
     path=f"{data_path}/" + "credit_history.parquet",
     event_timestamp_column="event_timestamp",
-    created_timestamp_column="created_timestam",
+    created_timestamp_column="created_timestamp",
     timestamp_field="event_timestamp"
 )
 
