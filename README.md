@@ -97,6 +97,8 @@ Deploying infrastructure for credit_history
 Deploying infrastructure for zipcode_features
 ```
 
+This commmand also generates a `registry.db` file in your `data/` folder containing Feast configuration information.
+
 Next, load features into the online store using the `materialize-incremental` command. This command loads the
 latest feature values from a data source (parquet files, in our case) into the online store (ScyllaDB).
 
