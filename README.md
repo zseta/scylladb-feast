@@ -1,4 +1,4 @@
-# Feast + ScyllaDB Feature Store
+# Real-time credit scoring application with Feast & ScyllaDB
 
 This project is based on [this] existing (https://github.com/feast-dev/feast-aws-credit-scoring-tutorial) Feast sample application.
 
