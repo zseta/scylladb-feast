@@ -1,8 +1,8 @@
 # Feast + ScyllaDB Feature Store
 
-This project is based on [this](https://github.com/feast-dev/feast-aws-credit-scoring-tutorial) Feast sample applications.
+This project is based on [this] existing (https://github.com/feast-dev/feast-aws-credit-scoring-tutorial) Feast sample application.
 
-![credit-score-architecture@2x](https://user-images.githubusercontent.com/6728866/132927464-5c9e9e05-538c-48c5-bc16-94a6d9d7e57b.jpg)
+![scylla feast architecture](/images/scylla-feast.jpg)
 
 This sample project is a real-time credit scoring application example that shows you how to set up Feast with ScyllaDB Cloud as an online store and parquet files as offline store.
 
@@ -38,10 +38,10 @@ Go to [ScyllaDB Cloud](https://cloud.scylladb.com/) and create a new cluster (ei
 Install CQLSH command line tool and connect to the ScyllaDB cluster:
 ```
 pip install cqlsh
-cqlsh <SCYLLA-CLOUD-HOST>
+cqlsh <SCYLLA-CLOUD-HOST> -u scylla -p <PASSWORD>
 ```
 
-You can get the host address from your ScyllaDB Cloud dashboard:
+You can get the host address, username, and password from your ScyllaDB Cloud dashboard:
 ![scylla connect](/images/scylla-cloud-connect.png)
 
 Create a new keyspace called `feast` in ScyllaDB (this keyspace will be populated by Feast):
@@ -91,14 +91,13 @@ Deploy the feature store by running `apply` from within the `feature_repo/` fold
 ```
 cd feature_repo/
 feast apply
-```
 
-```
+
 Deploying infrastructure for credit_history
 Deploying infrastructure for zipcode_features
 ```
 
-Next we load features into the online store using the `materialize-incremental` command. This command loads the
+Next, load features into the online store using the `materialize-incremental` command. This command loads the
 latest feature values from a data source (parquet files, in our case) into the online store (ScyllaDB).
 
 ```
