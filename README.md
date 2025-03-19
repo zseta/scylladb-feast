@@ -123,5 +123,13 @@ The script returns the result of a single loan application:
 Loan rejected!
 ```
 
+You can also run `feast ui` to explore your features:
+```
+feast ui
+```
+
+Open http://0.0.0.0:8888
+![feast ui](/images/feast-ui.png)
+
 ## Interactive demo
 todo...
