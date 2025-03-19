@@ -1,0 +1,42 @@
+
+:
+
+zipcode"zipcodeJrepo
+¤öæ¾À¤ÈÑ¤öæ¾À¤ÈÑ
+x
+X
+dob_ssn<Date of birth and last four digits of social security number"dob_ssnJrepo
+¤öæ¾ ùËÑ¤öæ¾ ùËÑ
+;
+
+__dummy"
+__dummy_idJrepo
+¤öæ¾ŸÏÑ¤öæ¾èÌÒÑ1"$5c62e4b6-c41a-4eea-ae75-7277458d46eb*ªöæ¾àðµ‚2—
+ö
+zipcode_featuresrepozipcode"
+city"	
+state"
+location_type"
+tax_returns_filed"
+
+population"
+total_wages2€†°–:Ûevent_timestamp*created_timestampZ}/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/zipcode_table.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢}/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/zipcode_table.parquet@b
+zipcode
+¤öæ¾ØÒ¶Ñ¤öæ¾ØÒ¶Ñ2ô
+Ó
+credit_historyrepodob_ssn"
+credit_card_due"
+mortgage_due"
+student_loan_due"
+vehicle_loan_due"
+
+hard_pulls"
+missed_payments_2y"
+missed_payments_1y"
+missed_payments_6m"
+bankruptcies2€ÎÚ:Þevent_timestamp*created_timestampZ€~/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/credit_history.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢~/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/credit_history.parquet@b
+dob_ssn
+¤öæ¾Ø·¿Ñ¤öæ¾Ø·¿Ñbâevent_timestamp*created_timestampZ}/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/zipcode_table.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢}/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/zipcode_table.parquetªrepobåevent_timestamp*created_timestampZ€~/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/credit_history.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢~/home/attila/Documents/ScyllaDB/FY25Q1/feast-scylla/feast-aws-credit-scoring-tutorial/feature_repo/data/credit_history.parquetªrepoŠ&
+
+repo
+¤öæ¾Ð“ÁÐ¤öæ¾Ð“ÁÐ

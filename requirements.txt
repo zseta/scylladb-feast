@@ -1,0 +1,3 @@
+feast[cassandra]
+pandas
+scikit-learn
