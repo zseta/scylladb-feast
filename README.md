@@ -29,7 +29,7 @@ In this tutorial, you'll do the following steps:
 1. Install dependencies and configure Feast
 1. Deploy and test the feature store
 
-## Create ScyllaDB Cloud cluster
+### Create ScyllaDB Cloud cluster
 Go to [ScyllaDB Cloud](https://cloud.scylladb.com/) and create a new cluster (either "Free Tial" or "Dedicated VM"). You can use the smallest available machine for this sample app (`t3.micro`)
 ![choose machine type](images/choose-machine.png)
 
@@ -131,5 +131,5 @@ feast ui
 Open http://0.0.0.0:8888
 ![feast ui](/images/feast-ui.png)
 
-## Interactive demo
+### Interactive demo
 todo...
