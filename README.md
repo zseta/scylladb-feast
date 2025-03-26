@@ -132,4 +132,13 @@ Open http://0.0.0.0:8888
 ![feast ui](/images/feast-ui.png)
 
 ### Interactive demo
-todo...
+Run the Streamlit app locally:
+```
+streamlit run app.py
+```
+
+Go to http://localhost:8501
+
+![streamlit app](/images/streamlit_app.png)
+
+You can modify the variables on the left sidebar then the app will automatically run the prediction using the model.
